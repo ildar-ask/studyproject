@@ -8,25 +8,29 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">SaulDesign</a>
-            
-            <a href="#">Home</a>
-            <a href="#">About Me</a>
-            <a href="#">Contact</a>                           
-        </nav>
-    </header>
-
-    <section>
-        <h1>CREATIVE UI DESIGNER</h1>
-        <a href="">Hire me</a>
-        <a href="">Download CV</a>
-        <a href="#about_me">"Arrow to down"</a>
-    </section>
-
+    <div id="home_page">
+        <header>
+            <nav>
+                <div id="logo"><a href="index.html">SaulDesign</a></div>
+                <div id="menu">
+                    <a href="#">Home</a>
+                    <a href="#">About Me</a>
+                    <a href="#">Contact</a> 
+                </div>                      
+            </nav>
+        </header>
+    
+        <section>
+            <h1>CREATIVE UI <span class="highlight">DESIGNER</span></h1>
+            <div id="actions">
+                <a href="">Hire me</a>
+                <a href="">Download CV</a>
+            </div> 
+            <a href="#about_me">"Arrow to down"</a>
+        </section>
+    </div>
     <section id="about_me">
-        <h2>About me</h2>
+        <h2>About <span class="highlight">me</span></h2>
         <p>Lorem ipsum dolor sit amet, consectetur<br>
            adipiscing elit. Nunc vulputate libero et<br>
            velit interdum, ac aliquet odio mattis. Class<br>
