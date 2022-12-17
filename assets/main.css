@@ -93,3 +93,49 @@ a {
   width: 100%;
 }
 /* Header styles end */
+
+/* Section styles start */
+.section__wrapper {
+  margin-left: 84px;
+  margin-top: 215px;
+}
+.block {
+  display: inline-block;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 96px;
+}
+
+.highlight {
+  color: #00ADB5;
+}
+
+.actions {
+  display: flex;
+}
+
+.button {
+  background: #00ADB5;
+  padding: 10px 32px;
+  border-radius: 24px;
+  color: #EEEEEE;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.hire {
+  margin-right: 24px;
+}
+
+.download {
+  background: rgba(57, 62, 70, 0.75);
+}
+
+.section_image-man {
+  display: flex;
+  margin-left: 718px;
+  margin-bottom: 10px;
+}
+/* Section styles end */
